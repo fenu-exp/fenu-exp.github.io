@@ -10,11 +10,17 @@
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/css/font-awesome.min.css">
 
-	<script type="text/javascript" src="/js/latexit.js"></script>
-	<script type="text/javascript">
-	LatexIT.add('p',true);
+	<script>
+	MathJax = {
+	  tex: {
+	    inlineMath: [['$', '$'], ['\\(', '\\)']]
+	  }
+	};
 	</script>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+	<script type="text/javascript" src="/js/fonts.min.js"></script>
   <link rel='stylesheet' type='text/css' href='/css/x3dom.css'>
   <script type='text/javascript' src='/js/x3dom.js'></script>
 
@@ -76,52 +82,427 @@
 	<div class="container" style="margin-top: 20px; ">
 		<div class="jumbotron" style="margin-top: 20px; margin-bottom:20px">
 			
-	<div class="container">
-		<h2 class="mb-0 text-black lh-100">Members</h2>
 
-		<div class="my-3 p-3 bg-white rounded box-shadow">
-			<h6 class="border-bottom border-gray pb-2 mb-0">Institute of Physics, University of Silesia, Chorzów, Poland</h6>
+<h2 align="center">Collaboration Members</h2>
 
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-home" aria-selected="true">All</a>
+  </li>
+	
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pillsphd" role="tab" aria-controls="pills-profile" aria-selected="false">PhD Students</a>
+  </li>
+	
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pillsstu" role="tab" aria-controls="pills-profile" aria-selected="false">Students</a>
+  </li>
+	
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pillssta" role="tab" aria-controls="pills-profile" aria-selected="false">Staff</a>
+  </li>
+	
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-home-tab">
+		<div class="text-center">
+			<div class="row">
+			
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
 
-			<div class="media text-muted pt-3">
-				<img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
-				<div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-					<div class="d-flex justify-content-between align-items-center w-100">
-						<strong class="text-gray-dark">Albert Szadziński</strong>
-						<!--<a href="#">Follow</a>-->
-					</div>
-					<span class="d-block">albert.szadzinski@us.edu.pl</span>
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:albert.szadzinski@us.edu.pl"><i class="fa fa-envelope"></i></a>
+					
+					<a href="https://orcid.org/0000-0001-6864-8434"><i class="fab fa-orcid"></i></a>
+					
+					
+					<a href="https://www.researchgate.net/profile/Albert_Szadzinski"><i class="fab fa-researchgate"></i></a>
+					
+					
+					<a href="https://szadzinski.pl"><i class="fa fa-user-tag"></i></a>
+					
+					<hr>
 				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://www.uw.edu.pl/>University of Warsaw</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					<a href="https://orcid.org/0000-0001-6864-8434"><i class="fab fa-orcid"></i></a>
+					
+					
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					<a href="https://www.researchgate.net/profile/Albert_Szadzinski"><i class="fab fa-researchgate"></i></a>
+					
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					
+					<a href="https://szadzinski.pl"><i class="fa fa-user-tag"></i></a>
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					<a href="https://www.researchgate.net/profile/Albert_Szadzinski"><i class="fab fa-researchgate"></i></a>
+					
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					<a href="https://orcid.org/0000-0001-6864-8434"><i class="fab fa-orcid"></i></a>
+					
+					
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					
+					<a href="https://szadzinski.pl"><i class="fa fa-user-tag"></i></a>
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					<a href="https://www.researchgate.net/profile/Albert_Szadzinski"><i class="fab fa-researchgate"></i></a>
+					
+					
+					<a href="https://szadzinski.pl"><i class="fa fa-user-tag"></i></a>
+					
+					<hr>
+				</div>
+			
+			
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					
+					<hr>
+				</div>
+			
+			
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://www.uj.edu.pl/>Jagiellonian University</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					
+					<a href="https://szadzinski.pl"><i class="fa fa-user-tag"></i></a>
+					
+					<hr>
+				</div>
+			
+			
 			</div>
-
 		</div>
+	</div>
+	
+  <div class="tab-pane fade show" id="pillsphd" role="tabpanel" aria-labelledby="pills-profile-tab">
+		<div class="text-center">
+			<div class="row">
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
 
-		<div class="my-3 p-3 bg-white rounded box-shadow">
-			<h6 class="border-bottom border-gray pb-2 mb-0">Jagiellonian University</h6>
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
 
+					<a href="mailto:albert.szadzinski@us.edu.pl"><i class="fa fa-envelope"></i></a>
+					
+					<a href="https://orcid.org/0000-0001-6864-8434"><i class="fab fa-orcid"></i></a>
+					
+					
+					<a href="https://www.researchgate.net/profile/Albert_Szadzinski"><i class="fab fa-researchgate"></i></a>
+					
+					
+					<a href="https://szadzinski.pl"><i class="fa fa-user-tag"></i></a>
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
 
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://www.uw.edu.pl/>University of Warsaw</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					<a href="https://orcid.org/0000-0001-6864-8434"><i class="fab fa-orcid"></i></a>
+					
+					
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					<a href="https://www.researchgate.net/profile/Albert_Szadzinski"><i class="fab fa-researchgate"></i></a>
+					
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					
+					<a href="https://szadzinski.pl"><i class="fa fa-user-tag"></i></a>
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					<a href="https://www.researchgate.net/profile/Albert_Szadzinski"><i class="fab fa-researchgate"></i></a>
+					
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					<a href="https://orcid.org/0000-0001-6864-8434"><i class="fab fa-orcid"></i></a>
+					
+					
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					
+					<a href="https://szadzinski.pl"><i class="fa fa-user-tag"></i></a>
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
+
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					<a href="https://www.researchgate.net/profile/Albert_Szadzinski"><i class="fab fa-researchgate"></i></a>
+					
+					
+					<a href="https://szadzinski.pl"><i class="fa fa-user-tag"></i></a>
+					
+					<hr>
+				</div>
+			
+			</div>
 		</div>
+	</div>
+	
+  <div class="tab-pane fade show" id="pillsstu" role="tabpanel" aria-labelledby="pills-profile-tab">
+		<div class="text-center">
+			<div class="row">
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
 
-		<div class="my-3 p-3 bg-white rounded box-shadow">
-			<h6 class="border-bottom border-gray pb-2 mb-0">Institute of Nuclear Physics PAN</h6>
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
 
-
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					
+					<hr>
+				</div>
+			
+			</div>
 		</div>
+	</div>
+	
+  <div class="tab-pane fade show" id="pillssta" role="tabpanel" aria-labelledby="pills-profile-tab">
+		<div class="text-center">
+			<div class="row">
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
 
-		<div class="my-3 p-3 bg-white rounded box-shadow">
-			<h6 class="border-bottom border-gray pb-2 mb-0">University of Warsaw</h6>
+					<small><a style="color:#575757;" href=https://www.uj.edu.pl/>Jagiellonian University</a></small><br>
 
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					
+					<hr>
+				</div>
+			
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="/img/avatar.png" alt="avatar" width="140" height="140"><br>
+					inż. mgr<br>Albert Szadziński<br>
 
+					<small><a style="color:#575757;" href=https://us.edu.pl/>Institute of Physics, University of Silesia, Chorzów, Poland</a></small><br>
+
+					<a href="mailto:None"><i class="fa fa-envelope"></i></a>
+					
+					
+					
+					<a href="https://szadzinski.pl"><i class="fa fa-user-tag"></i></a>
+					
+					<hr>
+				</div>
+			
+			</div>
 		</div>
+	</div>
+	
 
-		<div class="my-3 p-3 bg-white rounded box-shadow">
-			<h6 class="border-bottom border-gray pb-2 mb-0">University of Groningen</h6>
-
-
-		</div>
-
-
-		</div>
 	</div>
 
 		</div>

@@ -10,11 +10,17 @@
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/css/font-awesome.min.css">
 
-	<script type="text/javascript" src="/js/latexit.js"></script>
-	<script type="text/javascript">
-	LatexIT.add('p',true);
+	<script>
+	MathJax = {
+	  tex: {
+	    inlineMath: [['$', '$'], ['\\(', '\\)']]
+	  }
+	};
 	</script>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+	<script type="text/javascript" src="/js/fonts.min.js"></script>
   <link rel='stylesheet' type='text/css' href='/css/x3dom.css'>
   <script type='text/javascript' src='/js/x3dom.js'></script>
 
@@ -3331,7 +3337,7 @@
 -->
 				<hr class="featurette-divider">
 
-																										<div class="text-center">
+																															<div class="text-center">
 <div class="row">
 <div class="col-lg-4">
 <img class="rounded-circle" src="https://fenu-experiment.pl/dashboard/gallery/send/16" alt="Thumbnail" width="140" height="140">
@@ -3519,6 +3525,7 @@ dostarczanie nowych danych .
 
 <!-- ==================================================================== -->
 
+				
 				
 				
 				
